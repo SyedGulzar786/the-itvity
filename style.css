@@ -22,7 +22,11 @@ text-decoration-skip-ink: none;
     text-underline-position: from-font !important;
     text-decoration-skip-ink: none !important;
     /* width: 90.67px !important; */
-/* height: 36px !important; */
-padding: 10px !important;
-border-radius: 8px !important;
+    /* height: 36px !important; */
+    padding: 10px !important;
+    border-radius: 8px !important;
+}
+/* /// first section starts */
+.section-container{
+    margin: 0px 8px !important;
 }
