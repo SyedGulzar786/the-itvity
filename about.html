@@ -1,122 +1,82 @@
 <html>
  <head>
-  <title>
-   Product Features
-  </title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
   <style>
-        .slide-container {
-            text-align: left;
-            padding: 20px;
-        }
-        .slide-tag {
-            border: 1px solid #000;
-    font-family: Inter !important;
-    font-size: 12px !important;
-    font-weight: 500 !important;
-    line-height: 20px !important;
-    text-align: left !important;
-    text-underline-position: from-font !important;
-    text-decoration-skip-ink: none !important;
-    width: 127.59px !important;
-    padding: 2px 10px !important;
-    border-radius: 6px !important;
-        }
-       .slide-container h1 {
-font-family: Bricolage Grotesque;
-font-size: 40px;
-font-weight: 600;
-line-height: 48px;
-letter-spacing: -0.4000000059604645px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
-        }
-       .slide-container span {
-            font-size: 36px;
-            font-weight: 300;
-            color: #888;
+   body {
+            background-color: #121212;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             margin: 0;
+            font-family: Arial, sans-serif;
         }
-        .slide-container p {
-font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+        .reviews-card {
+            background-color: #1E1E1E;
+            color: #FFFFFF;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 400px;
         }
-        .slide-button {
-padding: 10px ;
-border-radius: 8px;            
-background: #0D0C10;
-color: #fff;
-font-family: Inter;
-font-size: 12px;
-font-weight: 500;
-line-height: 20px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+        .reviews-stars {
+            color: #FFD700;
+            margin-bottom: 10px;
         }
-        .slide-features {
-            list-style: none;
-            padding: 0;
-            margin: 20px 0;
+        .reviews-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
         }
-        .slide-features li {
-            font-size: 16px;
-            color: #000;
-            margin: 10px 0;
+        .reviews-description {
+            font-size: 14px;
+            color: #B0B0B0;
+            margin-bottom: 20px;
+        }
+        .reviews-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .reviews-logo {
             display: flex;
             align-items: center;
         }
-        .slide-features li i {
-            color: #000;
+        .reviews-logo img {
+            width: 40px;
+            height: auto;
             margin-right: 10px;
         }
-        .slide-image {
-            text-align: right;
+        .reviews-read-more {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 14px;
         }
-        .slide-image img {
-            width: 100px;
-            height: auto;
+        .reviews-read-more:hover {
+            text-decoration: underline;
         }
   </style>
  </head>
  <body>
-  <div class="slide-container">
-   <div class="slide-tag">
-    Product Features
+  <div class="reviews-card">
+   <div class="reviews-stars">
+    ★ ★ ★ ★ ★
    </div>
-   <h1>
-    Powerful solutions
-   <span> redefining growth.</span>
-   </h1>
-   <p>
+   <div class="reviews-title">
+    Revolutionizing Transactions:
+   </div>
+   <div class="reviews-description">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus. Nullam congue blandit quam, sit amet scelerisque turpis pellentesque eu.
-   </p>
-   <button class="slide-button" href="#">
-    Find Out More
-   </button>
-   <ul class="slide-features">
-    <li>
-     <i class="slide-icon fas fa-check-circle">
-     </i>
-     Register users in seconds
-    </li>
-    <li>
-     <i class="slide-icon fas fa-check-circle">
-     </i>
-     Collect authorization via secure portals.
-    </li>
-   </ul>
-   <div class="slide-image">
-    <img alt="Illustration of a cloud with a rainbow and a platform" height="100" src="https://storage.googleapis.com/a1aa/image/cHY8kZDInabHPdKJb8lhsXe4djqKXVelTOlpSkeeWVp8DCWPB.jpg" width="100"/>
+   </div>
+   <div class="reviews-footer">
+    <div class="reviews-logo">
+     <img alt="Company logo" height="40" src="https://storage.googleapis.com/a1aa/image/TI27dPH0144BJlMVYsB9DCQTCzBWedAYfEFjAY0FCwkwHj1TA.jpg" width="40"/>
+     <span>
+      PENG
+     </span>
+    </div>
+    <a class="reviews-read-more" href="#">
+     Read More →
+    </a>
    </div>
   </div>
  </body>
