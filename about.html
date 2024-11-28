@@ -1,83 +1,102 @@
 <html>
- <head>
-  <style>
-   body {
-            background-color: #121212;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
+<head>
+    <title>Otake FAQ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
             font-family: Arial, sans-serif;
-        }
-        .reviews-card {
-            background-color: #1E1E1E;
-            color: #FFFFFF;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            margin: 0;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            width: 400px;
         }
-        .reviews-stars {
-            color: #FFD700;
-            margin-bottom: 10px;
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
         }
-        .reviews-title {
-            font-size: 18px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        .reviews-description {
-            font-size: 14px;
-            color: #B0B0B0;
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
             margin-bottom: 20px;
         }
-        .reviews-footer {
+        .button {
+            flex: 1 1 calc(50% - 10px);
+            background: white;
+            border: 2px solid #d1d5db;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: all 0.3s ease;
+        }
+        .button:hover {
+            border-color: #6366f1;
+            color: #6366f1;
+        }
+        .button i {
+            font-size: 24px;
+        }
+        .content {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .faq-item {
+            margin-bottom: 10px;
+        }
+        .faq-item p {
+            font-size: 18px;
+            margin: 0;
+            cursor: pointer;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        .reviews-logo {
-            display: flex;
-            align-items: center;
+        .faq-item p:hover {
+            color: #6366f1;
         }
-        .reviews-logo img {
-            width: 40px;
-            height: auto;
-            margin-right: 10px;
-        }
-        .reviews-read-more {
-            color: #FFFFFF;
-            text-decoration: none;
-            font-size: 14px;
-        }
-        .reviews-read-more:hover {
-            text-decoration: underline;
-        }
-  </style>
- </head>
- <body>
-  <div class="reviews-card">
-   <div class="reviews-stars">
-    ★ ★ ★ ★ ★
-   </div>
-   <div class="reviews-title">
-    Revolutionizing Transactions:
-   </div>
-   <div class="reviews-description">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus. Nullam congue blandit quam, sit amet scelerisque turpis pellentesque eu.
-   </div>
-   <div class="reviews-footer">
-    <div class="reviews-logo">
-     <img alt="Company logo" height="40" src="https://storage.googleapis.com/a1aa/image/TI27dPH0144BJlMVYsB9DCQTCzBWedAYfEFjAY0FCwkwHj1TA.jpg" width="40"/>
-     <span>
-      PENG
-     </span>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="buttons">
+            <div class="button">
+                <i class="fas fa-keyboard"></i> Getting Started
+            </div>
+            <div class="button">
+                <i class="fas fa-cogs"></i> Features and Support
+            </div>
+            <div class="button">
+                <i class="fas fa-shield-alt"></i> Security and Privacy
+            </div>
+            <div class="button">
+                <i class="fas fa-hands-helping"></i> Oteka Assistance
+            </div>
+        </div>
+        <div class="content">
+            <h2>Getting Started:</h2>
+            <div class="faq-item">
+                <p>What is Otake and how can it benefit my startup? <i class="fas fa-chevron-down"></i></p>
+            </div>
+            <div class="faq-item">
+                <p>Is Otake suitable for all types of startups, regardless of industry size? <i class="fas fa-chevron-down"></i></p>
+            </div>
+            <div class="faq-item">
+                <p>How do I begin using Otake to develop my startup business effectively? <i class="fas fa-chevron-down"></i></p>
+            </div>
+        </div>
     </div>
-    <a class="reviews-read-more" href="#">
-     Read More →
-    </a>
-   </div>
-  </div>
- </body>
+</body>
 </html>

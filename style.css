@@ -547,6 +547,9 @@ width: 115px;
     height: 100%;
 }
 /* ///// reviews section */
+.reviews-sec{
+    max-width: fit-content;
+}
 .upper-header{
 width: 500px;
 }
@@ -654,4 +657,104 @@ text-decoration-skip-ink: none;
 }
 .sec-card-header{
     text-align: left;
+}
+/* //////// */
+/* status ///////////////////////// */
+.status-container {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    padding-top: 100px;
+    position: relative;
+border-radius: 25px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.status-container-logo {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #333;
+    width: 80px;
+    height: 80px;
+    top: -40px;  
+}
+h1 {
+    font-family: Bricolage Grotesque;
+font-size: 48px;
+font-weight: 600;
+line-height: 57.6px;
+letter-spacing: -0.47999998927116394px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C8C6D3;
+    
+}
+.status-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-family: Bricolage Grotesque;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: -0.20000000298023224px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.staticon{
+    width: 4px;
+height: 4px;
+border-radius: 4px ;
+background: #52505F;
+}
+.status-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+
+}
+.status-button-container button {
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 8px ;  
+    font-family: Inter;
+font-size: 12px;
+font-weight: 500;
+line-height: 20px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+  
+}
+.status-button-container span {
+    color: #aaa;
+}
+/* ////////// */
+/* faq-sectoin ////////////////////////// */
+.faq-sec{
+    max-width: fit-content;
 }
