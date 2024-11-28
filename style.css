@@ -265,7 +265,7 @@ padding: 25px;
 .cards-sec{
     max-width: 1036px !important;
 }
-.upper-sec{
+.cards-upper-sec{
     width: 574px !important;
 height: 219.19px !important;
 }
@@ -376,4 +376,59 @@ text-decoration-skip-ink: none;
     top: -60px;
     left: 100px;
 
+}
+/* about section ///// */
+.about-upper{
+    width: 574px;
+height: 192px;
+}
+.about-upper img{
+    width: 72px;
+    height: 72px;    
+}
+.about-upper h2{
+    font-family: Bricolage Grotesque;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}
+.about-upper p{
+    width: 304px;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;    
+}
+.about-lower img{
+    width: 44px;
+    height: 44px;
+    /* padding: 11px;x   */
+    border-radius: 10px;
+}
+.about-lower h2{
+    font-family: Bricolage Grotesque;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.about-lower p{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
 }
