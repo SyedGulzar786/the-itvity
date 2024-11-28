@@ -261,11 +261,11 @@ padding: 25px;
 .logos-sec{
     margin-bottom: 80px;
 }
-/* ////// */
+/* cards section ////// */
 .cards-sec{
     max-width: 1036px !important;
 }
-.cards-upper-sec{
+.upper-sec{
     width: 574px !important;
 height: 219.19px !important;
 }
@@ -291,7 +291,7 @@ text-decoration-skip-ink: none;
 
 /* background-color: #000; */
 }
-.cards-lower-sec{
+.lower-sec{
     margin-top: 70px !important;
 display: flex;
 justify-content: center;
