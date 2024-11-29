@@ -418,7 +418,7 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;    
 }
 .about-lower img{
-    margin-bottom: 12px;
+    margin-bottom: 13px;
     width: 44px;
     height: 44px;
     /* padding: 11px;x   */
@@ -445,6 +445,9 @@ text-decoration-skip-ink: none;
     text-decoration-skip-ink: none;    
 }
 /* slide section completed  ////// */
+.fifth-section{
+    margin-top: 180px;
+}
 .slide-container {
     display: flex;
     flex-direction: column;
@@ -470,6 +473,8 @@ padding: 2px 10px !important;
 border-radius: 6px !important;
 }
 .slide-container h1 {
+    margin-top: 16px;
+    width: 444px;
 font-family: Bricolage Grotesque;
 font-size: 40px;
 font-weight: 600;
@@ -481,12 +486,10 @@ text-decoration-skip-ink: none;
 
 }
 .slide-container span {
-    font-size: 36px;
-    font-weight: 300;
     color: #888;
-    margin: 0;
 }
 .slide-container p {
+margin-top: 10px;
 font-family: Inter;
 font-size: 16px;
 font-weight: 400;
@@ -494,10 +497,9 @@ line-height: 24px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-
-
 }
 .slide-button {
+margin-top: 13px;
 padding: 8px 10px;
 border-radius: 8px;            
 background: #0D0C10;
@@ -515,6 +517,7 @@ width: 115px;
     list-style: none;
     padding: 0;
     margin: 20px 0;
+    margin-top: 30px;
 }
 .slide-features li {
     color: #000;
@@ -536,8 +539,10 @@ width: 115px;
     font-size: 16.25px;
 }
 .slide-small-image {
+    width: 80px;
+    height: 80px;
     position: absolute;
-    top: 310px;
+    top: 330px;
     right: 20px;
     text-align: right;
 }
