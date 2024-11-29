@@ -265,8 +265,8 @@ padding: 25px;
     margin-bottom: 80px;
 }
 /* cards section ////// */
-.fourth-section{
-    margin-top: 250px;
+.third-section{
+    margin-top: 230px;
 }
 .cards-sec{
     max-width: 1036px !important;
@@ -386,6 +386,9 @@ text-decoration-skip-ink: none;
 
 }
 /* about section ///// */
+.fourth-section{
+    margin-top: 210px;
+}
 .about-upper{
     width: 574px;
 height: 192px;
@@ -415,6 +418,7 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;    
 }
 .about-lower img{
+    margin-bottom: 12px;
     width: 44px;
     height: 44px;
     /* padding: 11px;x   */
