@@ -227,9 +227,17 @@ text-decoration-skip-ink: none;
 }
 .boy-img{
 width: 100%;
+position: relative;
+right: 90px;
 /* width: 625.59px;
 height: 625.59px; */
-
+}
+.boy-opaque{
+    position: absolute;
+    /* Width: 625.59px; */
+    top: 0px;
+    left: -260px !important;
+    Z-index: -1;
 }
 .boy-surround-one{
     /* width: 100%; */
@@ -241,12 +249,12 @@ height: 625.59px; */
 .boy-surround-two{
     position: absolute;
     top: 300px;
-    left: 310px;
+    left: 250px;
 }
 .boy-surround-three{
     position: absolute;
     top: 115px;
-    right: 70px;
+    left: 370px;
 }
 /* second section starts ////// */
 .sec-sec{
