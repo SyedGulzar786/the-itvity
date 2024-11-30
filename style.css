@@ -236,8 +236,9 @@ height: 625.59px; */
     position: absolute;
     /* Width: 625.59px; */
     top: 0px;
-    left: -260px !important;
-    Z-index: -1;
+    right: 0px;
+    /* left: -210px !important; */
+    Z-index: -1 !important;
 }
 .boy-surround-one{
     /* width: 100%; */
