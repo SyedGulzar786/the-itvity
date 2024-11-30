@@ -19,6 +19,10 @@
     width: 1057px !important;
     margin: 25px auto;
 }
+.nav-logo{
+    width: 126px;
+    height: 28px;   
+}
 .web-btn{
     font-family: Inter !important;
     font-size: 12px !important;
@@ -38,6 +42,7 @@
 }
 .glass-morphism{
     /* height: 90vh !important; */
+    /* max-width: 100% !important; */
     display: flex;
     align-items: center;
     background-image: url(./assets/images/gradient.png);
@@ -46,7 +51,7 @@
     background-position: center;
 }
 .first-sec{
-    max-width:fit-content;
+    max-width: max-content !important;
 }
 .first-content {
     /* background-color: #000; */
@@ -222,6 +227,26 @@ text-decoration-skip-ink: none;
 }
 .boy-img{
 width: 100%;
+/* width: 625.59px;
+height: 625.59px; */
+
+}
+.boy-surround-one{
+    /* width: 100%; */
+    position: absolute;
+    bottom: 120px;
+    left: 0px;
+
+}
+.boy-surround-two{
+    position: absolute;
+    top: 300px;
+    left: 310px;
+}
+.boy-surround-three{
+    position: absolute;
+    top: 115px;
+    right: 70px;
 }
 /* second section starts ////// */
 .sec-sec{
@@ -884,12 +909,15 @@ text-decoration-skip-ink: none;
     width: 80px;
     height: 80px; 
     position: absolute;
-    top: 20px;  
+    top: 64px;  
+    right: 52px;
 }
 .faq-img-two{
     width: 80px;
     height: 80px;   
     position: absolute;  
+    top: 435px;
+    left: 32px;
 }
 .upper-faq h2{
  margin-top: 15px;   
