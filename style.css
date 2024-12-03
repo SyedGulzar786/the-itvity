@@ -45,10 +45,10 @@
     /* max-width: 100% !important; */
     display: flex;
     align-items: center;
-    background-image: url(./assets/images/gradient.png);
+    background-image: url(./assets/home/images/gradient.png);
     border-radius: 20px;
     background-size: cover;
-    background-position: center;
+    /* background-position: left; */
 }
 .first-sec{
     max-width: max-content !important;
@@ -300,7 +300,20 @@ padding: 25px;
 }
 /* cards section ////// */
 .third-section{
+    background-image: url(./assets/home/images/streamline.png);
+    background-size: cover;
+    background-position: top;
     margin-top: 230px;
+}
+.streamline{
+    background-image: url(./assets/home/images/streamline.png);
+    background-size: cover;
+    background-position: center;
+}
+.third-bg{
+    background-image: url(./assets/home/images/third-bg.png);
+    background-size: cover;
+    background-position: center;
 }
 .cards-sec{
     max-width: 1036px !important;
@@ -481,6 +494,12 @@ text-decoration-skip-ink: none;
 /* slide section completed  ////// */
 .fifth-section{
     margin-top: 180px;
+}
+.first-slide{
+    /* background-color: red; */
+    background-image: url(./assets/home/images/slide-bg.png);
+    background-size: cover;
+    background-position: center;
 }
 .slide-container {
     display: flex;
