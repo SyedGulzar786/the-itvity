@@ -317,5 +317,148 @@ padding: 0px 150px 0px 30px;
     width: 456px;
     height: 528px;
     border-radius: 16px ;
+    padding: 10px 40px !important;
     background: #F4F3F8;
+}
+.yearly-contact-form-group {
+    /* margin-bottom: 15px; */
+}
+.yearly-contact-form-group label {
+    display: block;
+    /* margin-bottom: 5px; */
+    color: #0D0C10;
+    font-family: Inter;
+font-size: 12px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.yearly-contact-form-group input {
+    width: 100%;
+    padding: 8px 13.5px;
+    border-radius: 12px ;
+    border: 1px solid #CCCCCC;
+}
+.yearly-contact-form-group input::placeholder {
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #878493;
+}
+.yearly-contact-form-group input:focus {
+    border-color: #666666;
+    outline: none;
+}
+.yearly-contact-submit-btn {
+    width: 100%;
+    padding: 10px ;
+    border-radius: 8px;
+    background: #0D0C10;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+        
+}
+.yearly-contact-submit-btn:hover {
+    background-color: #333333;
+}
+.yearly-contact-card {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+.yearly-contact-card img {
+    width: 48px;
+    height: 48px;  
+    margin-right: 15px;
+}
+.yearly-contact-card .yearly-contact-content {
+    display: flex;
+    flex-direction: column;
+}
+.yearly-contact-card .yearly-contact-content .yearly-contact-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+}
+.yearly-contact-card .yearly-contact-content .yearly-contact-description {
+    color: #6c757d;
+    font-size: 14px;
+    margin: 0;
+}
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+.intro-card h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+.intro-card p {
+    color: #666;
+    margin: 10px 0;
+}
+.intro-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.intro-profile img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.intro-profile-info {
+    text-align: left;
+}
+.intro-profile-info h2 {
+    font-size: 16px;
+    margin: 0;
+}
+.intro-profile-info p {
+    color: #999;
+    margin: 2px 0;
+}
+.intro-profile-info a {
+    color: #a64ac9;
+    text-decoration: none;
+}
+.feature-list {
+    list-style: none;
+    padding: 0;
+}
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.feature-item i {
+    margin-right: 10px;
+}
+.feature-item.checked i {
+    color: #8a4af3;
+}
+.feature-item.unchecked i {
+    color: #d3d3d3;
 }
