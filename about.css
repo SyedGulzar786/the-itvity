@@ -57,6 +57,17 @@ box-shadow: 0px 1px 1px 0px #0D0C100A;
 
 .first-section{
     margin-top: 110px;
+    /* background-color: #0D0C10; */
+    height: 550px;
+}
+.the-first-container{
+    /* background-color: #0D0C10; */
+    background-image: url(./assets/about/images/Container.svg);
+    background-size: cover;
+    background-position: center;
+}
+.front{
+    width: 100% !important;
 }
 .faq-badge{
     background: #FFE785 !important;
@@ -127,6 +138,16 @@ justify-content: center;
     width: 80px;
 height: 80px;
 }
+.first-img-one{
+position: absolute;
+top: 45px;
+left: 70px;
+}
+.first-img-two{
+position: absolute;
+top: 105px;
+/* right: ; */
+}
 
 
 
@@ -151,7 +172,7 @@ color: #0D0C10;
 
 }
 .sec-sec{
-    margin-top: 80px;
+    margin-top: 210px;
     padding: 50px 0px;
 }
 .sec-sec h2{
@@ -187,8 +208,13 @@ width: 90%;
 }
 /* ////// */
 /* third section starts / logos section ////// */
+.the-third-container{
+    background-image: url(./assets/about/images/third-container.svg);
+    background-size: cover;
+    background-position: center;
+}
 .third-section{
-    margin-top: 100px !important;
+    margin-top: 130px !important;
 }
 .logos-sec{
     margin-bottom: 80px;
@@ -273,8 +299,14 @@ height: 72px;
 margin-bottom: 30px;
 }
 /* ////////////////////////////////////////////// fourth section  */
+.the-fourth-container{
+    background-image: url(./assets/about/images/fourth-container.svg);
+    background-position: center;
+    background-size: cover;
+}
 .fourth-section{
-    margin-top: 100px !important;
+    margin-top: 210px !important;
+    /* background-color: #0D0C10; */
 }
 .top-sec{
     /* background-color: #0D0C10; */
@@ -339,7 +371,13 @@ align-items: center;
 }
 /* /////////////////////////////////// services fifth-section */
 .fifth-section{
-    margin-top: 100px !important;
+    margin-top: 210px !important;
+}
+.the-fifth-container{
+    background-image: url(./assets/about/images/fifth-container.svg);
+    background-position: center;
+    background-size: cover;
+    
 }
 .service{
     width: 476px !important;
@@ -390,7 +428,7 @@ border: 1px solid #E8E6F0;
 }
 /* ///////  sixth section */
 .sixth-section{
-    margin-top: 100px !important;
+    margin-top: 210px !important;
 }
 /* /////////////////////////////// reviews section */
 .seventh-section{
@@ -530,7 +568,6 @@ text-decoration-skip-ink: none;
 
 
 /* faq-sectoion ////////////////////////// */
-
 .sec-head{
     font-family: Bricolage Grotesque;
 font-size: 48px;
@@ -542,7 +579,12 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 }
 .tenth-section{
-    margin-top: 260px;
+    background-image: url(./assets/about/images/seventh-container.svg);
+    background-size: cover;
+    background-position: center;
+}
+.tenth-section{
+    margin-top: 140px;
 }
 .faq-img-one{
     width: 80px;
