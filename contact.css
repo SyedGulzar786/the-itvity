@@ -254,18 +254,18 @@ top: 105px;
     max-width: 400px;
 
     /* width: 400px; */
-height: 570px;   
+/* height: 570px;    */
 }
 .contact-info-contact-form input[type="text"],
 .contact-info-contact-form input[type="email"],
 .contact-info-contact-form input[type="tel"],
 .contact-info-contact-form textarea {
     width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    margin: 7px 0 19px;
     box-sizing: border-box;
+padding: 9px 13px ;
+border-radius: 12px;
+border: 1px solid #CCCCCC
 }
 .contact-info-holder::placeholder{
     font-family: Inter ;
