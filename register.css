@@ -6,6 +6,10 @@
     padding: 0px !important;
     margin: 0px !important;
 }
+.prime-section{
+    max-width: 1267px !important;
+    /* background-color: #000; */
+}
 .p-one{
     font-family: Inter;
 font-size: 14px;
@@ -18,8 +22,8 @@ color: #FFFFFF;
 
 }
 .dark-section{
-    max-width: 1247px !important;
-    border-radius: 25px;   
+    /* max-width: 1247px !important; */
+    /* border-radius: 25px 25px 0px 0px;    */
     background: #0D0C10; 
 }
 .cards-sec{
@@ -164,15 +168,26 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 }
 .tenth-section{
+    /* border-radius: 0px 0px 25px 25px;    */
     /* height: ; */
     background-image: url(./assets/login/images/register-container.svg);
     background-size: cover;
     background-position: center;
+    margin-top: 50px;
 }
 /* .register-first-sec{ */
-    /* margin-top: 140px; */
     /* height: 836px; */
 /* } */
+.form-faq-heading{
+    font-family: Bricolage Grotesque;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}
 .faq-img-one{
     width: 80px;
     height: 80px; 
@@ -187,136 +202,13 @@ text-decoration-skip-ink: none;
     top: 435px;
     left: 32px;
 }
-.upper-faq h2{
- margin-top: 15px;   
-}
-.upper-faq p{
-    margin-top: 10px;
-}
-.faq-badge{
-    background: #FFE785 !important;
-    font-family: Inter !important;
-    font-size: 12px !important;
-    font-weight: 500 !important;
-    line-height: 20px !important;
-    text-align: center !important;
-    text-underline-position: from-font !important;
-    text-decoration-skip-ink: none !important;
-    /* width: 127.59px !important; */
-    padding: 2px 10px !important;
-    border-radius: 6px !important;
-    width: fit-content;
-}
-.faq-para{
-    width: 100% !important;
-    font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-}
-/* ////// */
-.mid-faq {
-    /* background-color: tomato; */
-    margin-top: 30px !important;
-}
-.faq-sec-row-container {
-    display: grid;
-    grid-template-columns: 0.1fr 0.1fr;
-    gap: 18px;
-}
-.faq-sec-row-container span{
-    font-family: Bricolage Grotesque;
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-}
-.faq-sec-row-card {
-    background: white;
-    border-radius: 10px;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 302px;
-height: 74px;
-padding: 25px ;
-border-radius: 12px;
-border: 1px;
-   /* transition: all 0.3s ease; */
-}
-.faq-sec-row-card:hover {
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-    /* border: 2px solid #6c63ff; */
-    border: 1px solid #9585FF
-}
-.faq-sec-row-card img {
-    font-size: 24px;
-    margin-right: 10px;
-}
-/* ///// */
-.lower-faq {
-    /* background-color: tomato; */
-    margin-top: 30px !important;
-}
-.faq-third-row-container {
-    background-color: transparent;
-    padding: 20px;
-    border-radius: 8px;
-
-    width: 620px !important;
-/* height: 216.39px !important; */
-}
-.faq-third-row-container h1 {
-    margin-bottom: 20px;
-    font-family: Bricolage Grotesque;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 32.4px;
-    letter-spacing: -0.23999999463558197px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;    
-}
-.faq-third-row-faq-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    margin-bottom: 20px;
-}
-.faq-third-row-faq-item:last-child {
-    margin-bottom: 0;
-}
-.faq-third-row-faq-item p {
-    margin: 0;
-    font-size: 18px;
-    flex-grow: 1;
-    font-family: Inter;
-font-size: 14px;
-font-weight: 500;
-line-height: 24px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-}
-.faq-third-row-faq-item i {
-    font-size: 12px;
-    margin-left: 10px;
-}
-
 
 /* ///////////// footer section */
 /* ///// footer card */
 
 
 .eleventh-section{
-    margin-top: 100px;
+    margin-top: 5px;
     padding-top: 120px;
     padding-bottom: 30px;
 }
@@ -587,7 +479,8 @@ text-decoration-skip-ink: none !important;
 }
 .register-container .question {
     /* background: #f1f1f1 !important; */
-    margin-top: 140px;
+    margin-top: 100px;
+    margin-bottom: 80px;
 }
 .register-container .question p{
     /* background: #f1f1f1 !important; */

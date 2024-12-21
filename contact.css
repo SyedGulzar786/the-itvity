@@ -6,6 +6,10 @@
     padding: 0px !important;
     margin: 0px !important;
 }
+.prime-section{
+    max-width: 1267px !important;
+    /* background-color: #000; */
+}
 .p-one{
     font-family: Inter;
 font-size: 14px;
@@ -18,8 +22,8 @@ color: #FFFFFF;
 
 }
 .dark-section{
-    max-width: 1247px !important;
-    border-radius: 25px;   
+    max-width: 1267px !important;
+    /* border-radius: 25px;    */
     background: #0D0C10; 
 }
 .cards-sec{
@@ -447,7 +451,7 @@ color: #0D0C10 !important;
 /* //////// */
 /* status ///////////////////////// */
 .ninth-section{
-    margin-top: 250px;
+    margin-top: 350px;
 }
 .status-container {
     background-color: #111;
@@ -573,7 +577,8 @@ text-decoration-skip-ink: none;
     background-position: center;
 }
 .tenth-section{
-    margin-top: 140px;
+    height: 750px;
+    margin-top: 310px;
 }
 .faq-img-one{
     width: 80px;
@@ -607,7 +612,20 @@ text-decoration-skip-ink: none;
     /* width: 127.59px !important; */
     padding: 2px 10px !important;
     border-radius: 6px !important;
-    width: fit-content;
+    width: fit-content !important;
+}
+.form-faq-heading{
+    font-family: Bricolage Grotesque;
+font-size: 40px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: -0.4000000059604645px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.sizing-form{
+    width: 581px !important;
 }
 .faq-para{
     width: 100% !important;
@@ -718,7 +736,7 @@ text-decoration-skip-ink: none;
 
 
 .eleventh-section{
-    margin-top: 100px;
+    /* margin-top: 100px; */
     padding-top: 120px;
     padding-bottom: 30px;
 }

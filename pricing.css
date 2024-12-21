@@ -6,6 +6,10 @@
     padding: 0px !important;
     margin: 0px !important;
 }
+.prime-section{
+    max-width: 1267px !important;
+    /* background-color: #000; */
+}
 .p-one{
     font-family: Inter;
 font-size: 14px;
@@ -18,8 +22,8 @@ color: #FFFFFF;
 
 }
 .dark-section{
-    max-width: 1247px !important;
-    border-radius: 25px;   
+    max-width: 1267px !important;
+    /* border-radius: 25px;    */
     background: #0D0C10; 
 }
 .cards-sec{
