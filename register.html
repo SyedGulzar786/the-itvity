@@ -39,11 +39,11 @@
                    <!-- faqs section tenth section-->
       <section>
         <div class="container faq-sec tenth-section">
-    <div class="row ">
+    <div class="row">
       <div class="col-2 faq-img-parent position-relative"><img class="faq-img-one" src="./assets/about/images/faq-1.png" alt=""></div>
       <div class="col-lg-8 col-sm-12">
 
-<div class="row">
+<div class="row register-first-sec d-flex align-items-center">
 <form action="submit" class="contact-info-contact-form d-flex justify-content-center">
   <div class="register-container">
     <div>
@@ -57,30 +57,36 @@
       <label for="password">
         Password
        </label>
-       <input class="contact-info-holder" id="password" placeholder="min 8 character." type="password"/>
+       <input class="contact-info-holder mb-0" id="password" placeholder="min 8 character." type="password"/>
     </div>
 
-    <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div class="mb-1 mt-2" style="display: flex; justify-content: space-between; align-items: center;">
      <div class="contact-info-privacy-policy">
          <input type="checkbox" id="privacy-policy" name="privacy-policy">
          <label for="privacy-policy">Remember me</label>
+         <a class="forgot-password" href="#">
+           Forgot password?
+          </a>
         </div>
-        <a class="forgot-password" href="#">
-         Forgot password?
-        </a>
     </div>
 
 
     <button type="submit">Login</button>
 
 
-    <div class="divider">
+    <div class="divider my-4">
      or
     </div>
-    <button class="google-btn">
-     <img alt="Google logo" height="20" src="https://storage.googleapis.com/a1aa/image/pRgdOw2JKOqOAVBgeBy5ZUdsaN3wfZlx1qyWefOfCh2owtnfE.jpg" width="20"/>
+    <button class="google-btn m-0">
+     <img alt="Google logo" src="./assets/login/images/google.svg"/>
      Continue with Google
     </button>
+    <div class="question d-flex justify-content-center">
+      <p>
+        Don’t have an account? 
+        <span>Login</span>
+      </p>
+    </div>
    </div>
 </form>
 </div>
