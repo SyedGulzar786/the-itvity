@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Purple+Purse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Purple+Purse&display=swap');
+/* these given below are the common classes used in the entire about page */
+/* cards-sec, second-section, cards-upper-sec, upper-sec, top-sec, faq-badge, grey-badge, dark section */
+.body{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.p-one{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+
+}
+.dark-section{
+    max-width: 1247px !important;
+    border-radius: 25px;   
+    background: #0D0C10; 
+}
+.cards-sec{
+    max-width: 1036px !important;
+}
+.cards-upper-sec{
+    /* background-color: #0D0C10; */
+    /* width: 574px !important; */
+height: 219.19px !important;
+}
+.second-section{
+    max-width: 944px !important;
+    /* height: 152px; */
+}
+.upper-sec h2{
+    font-family: Bricolage Grotesque;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+    letter-spacing: -0.47999998927116394px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    }
+    .upper-sec p{
+    width: 304px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    /* background-color: #000; */
+    }
+    .lower-sec{
+        margin-top: 70px !important;
+    display: flex;
+    justify-content: center;
+    }
+.top-sec{
+    /* background-color: #0D0C10; */
+    max-width: 608px !important;
+}
+.top-sec p {
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.faq-badge{
+    background: #FFE785 !important;
+    font-family: Inter !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    line-height: 20px !important;
+    text-align: center !important;
+    text-underline-position: from-font !important;
+    text-decoration-skip-ink: none !important;
+    /* width: 127.59px !important; */
+    padding: 2px 10px !important;
+    border-radius: 6px !important;
+    width: fit-content;
+}
+.grey-badge{
+    background: #F4F3F8;
+    font-family: Inter !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    line-height: 20px !important;
+    text-align: center !important;
+    text-underline-position: from-font !important;
+    text-decoration-skip-ink: none !important;
+    /* width: 127.59px !important; */
+    padding: 2px 10px !important;
+    border-radius: 6px !important;
+    /* margin-left: 8px; */
+    width: 156.08px;
+    height: 24px;
+color: #0D0C10;
+}
+.uni-link{
+    text-decoration: none !important;
+    color: black !important;
+    font-family: Inter !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    line-height: 20px !important;
+    text-align: center !important;
+    text-underline-position: from-font !important;
+    text-decoration-skip-ink: none !important;
+}
+/* .uni-active{
+    border: 1px solid black;
+    border-radius: 8px ;
+    padding: 10px ;
+     width: 58.48px;
+    height: 36px; */
+    
+
+/* background: #FFFFFF01; */
+/* box-shadow: 0px 0px 0px 1px #E8E6F0;
+
+box-shadow: 0px 1px 1px 0px #0D0C100A; 
+
+} */
+.nav-contain{
+    width: 1057px !important;
+    margin: 25px auto;
+}
+.nav-logo{
+    width: 126px;
+    height: 28px;   
+}
+.web-btn{
+    font-family: Inter !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    line-height: 20px !important;
+    text-align: center !important;
+    text-underline-position: from-font !important;
+    text-decoration-skip-ink: none !important;
+    padding: 10px !important;
+    border-radius: 8px !important;
+}
+.web-btn-two{
+    color: #FFFFFF !important;
+}
+/* /////////// */
+
+.login-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0login-1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+.login-badge {
+    background-color: #f1c40f;
+    color: #000;
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.login-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.login-container .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+.login-container .btn img {
+    margin-right: 0.5rem;
+}
+.login-container .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+.login-container .divider::before, .divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #e0e0e0;
+}
+.login-container .divider:not(:empty)::before {
+    margin-right: 0.75em;
+}
+.login-container .divider:not(:empty)::after {
+    margin-left: 0.75em;
+}
+.login-container .input-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+.login-container .input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+}
+.login-container .input-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+.login-container .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.login-container .options label {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+}
+.login-container .options label input {
+    margin-right: 0.5rem;
+}
+.login-container .options a {
+    font-size: 0.875rem;
+    color: #000;
+    text-decoration: none;
+}
+.login-container .login-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.login-container .register {
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+}
+.login-container .register a {
+    color: #000;
+    text-decoration: none;
+}

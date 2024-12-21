@@ -148,7 +148,9 @@ box-shadow: 0px 1px 1px 0px #0D0C100A;
     padding: 10px !important;
     border-radius: 8px !important;
 }
-
+.web-btn-two{
+    color: #FFFFFF !important;
+}
 
 /* /////////// */
 /* first-section starts */
@@ -623,6 +625,70 @@ text-decoration-skip-ink: none !important;
     width: 72px;
 height: 72px;
 margin-bottom: 30px;
+}
+.companies-container {
+    max-width: 800px;
+    padding: 20px;
+    height: 348px;
+}
+.companies-container h1 {
+    font-family: Bricolage Grotesque;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0D0C10;
+    /* margin-bottom: 20px; */
+}
+.companies-companies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+.companies-company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.companies-company img {
+    /* margin-bottom: 10px; */
+    width: 104px;
+height: 32px;
+}
+.companies-company span {
+    font-size: 16px;
+    color: #333;
+}
+.companies-description {
+    /* margin-bottom: 20px; */
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #0D0C10;
+}
+.companies-button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #0D0C10;
+padding: 10px 11.47px;
+border-radius: 8px ;
+font-family: Inter;
+font-size: 12px;
+font-weight: 500;
+line-height: 20px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
 }
 /* slide section completed  ////// */
 .fifth-section{
