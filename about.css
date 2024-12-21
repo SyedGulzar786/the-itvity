@@ -376,6 +376,13 @@ align-items: center;
 .time{
     height: 392px;
 }
+.slide-caption{
+    /* width: 209.47px; */
+/* height: 98.39px; */
+/* top: 0px; */
+    right: 170px;
+    bottom: 0px;
+}
 /* /////////////////////////////////// services fifth-section */
 .fifth-section{
     margin-top: 210px !important;
@@ -435,9 +442,9 @@ border: 1px solid #E8E6F0;
 
 }
 /* ///////  sixth section */
-.sixth-section{
+/* .sixth-section{ */
     /* margin-top: 210px !important; */
-}
+/* } */
 /* /////////////////////////////// reviews section */
 .seventh-section{
     margin-top: 80px;

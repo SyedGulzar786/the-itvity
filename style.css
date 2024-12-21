@@ -239,22 +239,14 @@ height: 100%; */
 /* max-width: 665.59px !important;
 max-height: 665.59px !important; */
 position: absolute;
-top: 70px;
-right:  65px;
+top: -20px;
+right:  0px;
 /* right: -900px; */
 /* right:  90px; */
-width: 725.59px !important;
-height: 725.59px !important;
+width: 925.59px !important;
+height: 925.59px !important;
 /* width: 725.59px;
 height: 725.59px; */
-}
-.boy-opaque{
-    position: absolute;
-    /* Width: 625.59px; */
-    top: 0px;
-    right: 0px;
-    /* left: -210px !important; */
-    Z-index: -1 !important;
 }
 /* second section starts ////// */
 .sec-sec{
